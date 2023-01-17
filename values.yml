@@ -1,0 +1,8 @@
+name: nginx
+replicaCount: 1
+containerPort: 80
+Service:
+   type: NodePort
+   port: 80
+   targetport: 80
+   Nodeport: 30000
